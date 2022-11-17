@@ -1,0 +1,20 @@
+.rcp-saturation {
+  z-index: 1 !important;
+}
+.rcp-saturation-cursor {
+  z-index: 1;
+}
+.rcp-body {
+  z-index: 1;
+}
+.rcp-hue {
+  z-index: 1;
+}
+
+.rcp-fields {
+  z-index: 1;
+}
+
+.pickerColor .cp .rcp-dark .rcp-saturation {
+  z-index: 1 !important;
+}

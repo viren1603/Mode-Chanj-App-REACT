@@ -1,0 +1,72 @@
+.slider {
+  background-color: #f4f2f2;
+
+  height: 676px;
+}
+
+.d1 {
+  width: 50%;
+  height: 676px;
+}
+.d1 .d1ImgBox {
+  width: 400px;
+  height: 500px;
+  margin-left: 20%;
+  margin-top: 15%;
+  overflow: hidden;
+  transition: all 1s;
+  border-radius: 15px;
+}
+
+.d1 .d1ImgBox img {
+  width: 400px;
+  height: 500px;
+  /* filter: blur(2px); */
+  transition: all 1s;
+}
+.d1 .d1ImgBox img:hover {
+  filter: contrast(130%);
+  cursor: pointer;
+  /* filter: blur(0px); */
+  scale: 1.1;
+}
+.lklk {
+  animation-delay: 2s;
+}
+.d2 {
+  width: 50%;
+  height: 676px;
+  text-align: center;
+  color: white;
+  z-index: 0;
+  animation-duration: 2s;
+  /* animation-iteration-count: infinite; */
+}
+.d2 .p1 {
+  font-size: 40px;
+  margin-top: 150px;
+}
+.d2 .p1 h1 {
+  margin: 0;
+}
+.d2 .p2 {
+  font-size: 25px;
+  font-family: initial;
+  /* word-spacing: 5px; */
+}
+.d2 .p3 {
+  margin-top: 30px;
+}
+.d2 .p3Button {
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  transition: all 0.9s;
+  border: 0;
+  cursor: pointer;
+  letter-spacing: 10px;
+}
+
+.d2 .p3Button:hover {
+  letter-spacing: 15px;
+}
